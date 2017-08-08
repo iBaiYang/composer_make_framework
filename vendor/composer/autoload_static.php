@@ -13,10 +13,18 @@ class ComposerStaticInitcce61433f4b8a7197779086a48d6f9c9
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'Whoops\\' => 7,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Translation\\' => 30,
+        ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
         ),
         'N' => 
         array (
@@ -40,6 +48,10 @@ class ComposerStaticInitcce61433f4b8a7197779086a48d6f9c9
     );
 
     public static $prefixDirsPsr4 = array (
+        'Whoops\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -47,6 +59,10 @@ class ComposerStaticInitcce61433f4b8a7197779086a48d6f9c9
         'Symfony\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
         'NoahBuscher\\Macaw\\' => 
         array (
@@ -82,6 +98,7 @@ class ComposerStaticInitcce61433f4b8a7197779086a48d6f9c9
         'Article' => __DIR__ . '/../..' . '/app/models/Article.php',
         'BaseController' => __DIR__ . '/../..' . '/app/controllers/BaseController.php',
         'HomeController' => __DIR__ . '/../..' . '/app/controllers/HomeController.php',
+        'View' => __DIR__ . '/../..' . '/services/View.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

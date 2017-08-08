@@ -8,4 +8,7 @@
 
 noahbuscher/Macaw的git地址：https://github.com/NoahBuscher/Macaw
 
+完善教程：https://lvwenhan.com/php/410.html
+
+illuminate/support包函数列表：http://d.laravel-china.org/docs/5.4/helpers#method-snake-case
 
