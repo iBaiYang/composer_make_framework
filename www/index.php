@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
-
+phpinfo();die;
 error_reporting(E_ALL);
 
 // 定义 PUBLIC_PATH

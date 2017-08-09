@@ -6,9 +6,14 @@
 
 示例完整git地址：https://github.com/johnlui/My-First-Framework-based-on-Composer
 
+TinyLara框架：https://github.com/TinyLara/TinyLara
+
 noahbuscher/Macaw的git地址：https://github.com/NoahBuscher/Macaw
 
 完善教程：https://lvwenhan.com/php/410.html
 
-illuminate/support包函数列表：http://d.laravel-china.org/docs/5.4/helpers#method-snake-case
+illuminate/support包函数列表：http://d.laravel-china.org/docs/5.4/helpers
+
+nette/mail文档：http://doc.nette.org/en/2.2/mailing
+
 
