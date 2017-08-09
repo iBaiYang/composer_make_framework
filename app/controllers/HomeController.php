@@ -21,5 +21,8 @@ class HomeController extends BaseController
             ->from('MotherFucker <ooxx@163.com>')
             ->title('Fuck Me!')
             ->content('<h1>Hello~~</h1>');
+
+        Redis::set('key','value',5,'s');
+        echo Redis::get('key');
     }
 }
